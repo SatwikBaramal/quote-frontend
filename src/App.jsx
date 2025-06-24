@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Container, Button, Card, Spinner } from "react-bootstrap";
 import './App.css';
+import { Analytics } from "@vercel/analytics/next"
 
 
 function App() {
